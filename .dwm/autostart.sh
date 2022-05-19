@@ -1,6 +1,6 @@
 #! /bin/bash
 feh --bg-fill ~/Downloads/abara_wal.png &
-#picom --config ~/.config/picom/picom.conf & 
+picom --config ~/.config/picom/picom.conf & 
 status () { 
 
 	echo -n " $(pactl list sinks | grep '^[[:space:]]Volume:' | \
