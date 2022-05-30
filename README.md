@@ -1,5 +1,2 @@
 # dotfiles
-
-
-            unix.png
           
