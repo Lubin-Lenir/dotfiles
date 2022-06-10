@@ -11,7 +11,6 @@ static const int user_bh            = 30;        /* 0 means that dwm will calcul
 static const int horizpadbar        = 2;        /* horizontal padding for statusbar */
 static const int vertpadbar         = 0;        /* vertical padding for statusbar */
 static const int sidepad            = 10;       /* horizontal padding of bar */
-
 static const char *fonts[]          = { "Terminess Powerline:size=10","fontawesome:size=12" };
 
 static const char dmenufont[]       = "Terminess Powerline:size=10";
@@ -124,4 +123,3 @@ static Button buttons[] = {
 	{ ClkTagBar,            MODKEY,         Button1,        tag,            {0} },
 	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0} },
 };
-
