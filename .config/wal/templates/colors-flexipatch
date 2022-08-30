@@ -1,0 +1,25 @@
+dwm.normfgcolor: {color15}
+dwm.normbgcolor: {color0}
+dwm.normbordercolor: {color8}
+dwm.normfloatcolor: {color15}
+dwm.titlenormfgcolor: {color15}
+dwm.titlenormbgcolor: {color0}
+dwm.titlenormbordercolor: {color8}
+dwm.titlenormfloatcolor: {color15}
+dwm.tagsnormfgcolor: {color15}
+dwm.tagsnormbgcolor: {color0}
+dwm.tagsnormbordercolor: {color8}
+dwm.tagsnormfloatcolor: {color15}
+
+dwm.selfgcolor: {color15}
+dwm.selbgcolor: {color2}
+dwm.selbordercolor: {color15}
+dwm.selfloatcolor: {color15}
+dwm.titleselfgcolor: {color15}
+dwm.titleselbgcolor: {color2}
+dwm.titleselbordercolor: {color15}
+dwm.titleselfloatcolor: {color15}
+dwm.tagsselfgcolor: {color15}
+dwm.tagsselbgcolor: {color2}
+dwm.tagsselbordercolor: {color15}
+dwm.tagsselfloatcolor: {color15}
