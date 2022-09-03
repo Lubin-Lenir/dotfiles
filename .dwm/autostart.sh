@@ -12,7 +12,7 @@ awk '{print $4}' | sed s/,//) |  $(date '+%d-%m-%Y') |  $(date '+%H:%M') "
 
 
 
-feh --bg-fill ~/Downloads/image.png &
+feh --bg-fill ~/Pictures/wallpaper/sonny.png &
 picom --config ~/.config/picom/picom.conf &
 mpd &
 ~/.config/dunst/./reload_dunst.sh &
