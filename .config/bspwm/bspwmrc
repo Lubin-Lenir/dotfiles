@@ -1,7 +1,7 @@
 #! /bin/sh
 
 sxhkd &
-feh --bg-fill /home/magnocerebri/Downloads/image.png &
+feh --bg-fill /home/magnocerebri/Pictures/wallpaper/sonny.png &
 mpd &
 /home/magnocerebri/.config/dunst/reload_dunst.sh &
 picom &
