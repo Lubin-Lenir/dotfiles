@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Send notification with album art when ncmpcpp plays a new song
+# execute_on_song_change must be set in ncmpcpp config
+
+#ffmpeg -i "/home/magnocerebri/Music/$(mpc current -f %file%)" "/tmp/.music_cover.jpg" -y &> /dev/null 
+#ALBUM_ART_PATH="/tmp/.music_cover.jpg"
+
+#if [[ ! -f "${ALBUM_ART_PATH}" ]]; then # file doesn't exist
+# 	ALBUM_ART_PATH="~/Pictures/wallpaper/11-o.jpg" # TODO: insert path to generic icon here
+# fi
+
+ #xsetroot -name "$(status_bar status)"
+
+ALBUM_ART_PATH="/home/magnocerebri/.cache/album-art/$(mpc current -f %album%).jpg"
+if [[ ! -f "${ALBUM_ART_PATH}" ]]; then
+        ffmpeg -i "/home/magnocerebri/Music/$(mpc current -f %file%)" "${ALBUM_ART_PATH}" -y &> /dev/null
+fi
+
+pkill -RTMIN+4 dwmblocks 
+notify-send -a "Music Player Daemon" -i "${ALBUM_ART_PATH}" "Now Playing" "$(mpc --format '%artist% - %title%' current)"
