@@ -1,34 +1,30 @@
 #! /bin/sh
 
+killall music_not 
 sxhkd &
-feh --bg-fill /home/magnocerebri/Pictures/wallpaper/sonny.png &
-mpd &
+/home/magnocerebri/.fehbg &
 /home/magnocerebri/.config/dunst/reload_dunst.sh &
 picom &
 music_not &
 
 bspc monitor -d 1 2 3 4 5 6 
 
-bspc config border_width         0
-bspc config window_gap          40
-
+bspc config window_gap          20
+bspc config border_width        0
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 bspc config focus_follows_pointer true
 
-
-bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a firefox:Toolkit state=floating sticky=on
+bspc rule -a Firefox state=floating follow=on
 bspc rule -a Chromium desktop='^2'
-bspc rule -a mplayer2 state=floating
-bspc rule -a Kupfer.py focus=on
-bspc rule -a Screenkey manage=off
-
 #start polybar
-~/.config/polybar/launch.sh --docky &
+/home/magnocerebri/.config/polybar/launch.sh --try &
 
 
 #cursor
 xsetroot -cursor_name left_ptr &
-
+xfce4-power-manager &
+mpd &
 
