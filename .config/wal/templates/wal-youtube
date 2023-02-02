@@ -1,0 +1,70 @@
+:root {{
+    --wallpaper: url("{wallpaper}");
+
+    /* Special */
+    --background: {background};
+    --foreground: {foreground};
+    --cursor: {cursor};
+
+    /* Colors */
+    --color0: {color0};
+    --color1: {color1};
+    --color2: {color2};
+    --color3: {color3};
+    --color4: {color4};
+    --color5: {color5};
+    --color6: {color6};
+    --color7: {color7};
+    --color8: {color8};
+    --color9: {color9};
+    --color10: {color10};
+    --color11: {color11};
+    --color12: {color12};
+    --color13: {color13};
+    --color14: {color14};
+    --color15: {color15};
+}}
+
+
+* {{
+border-color: var(--color0) !important;
+    font-family: Metropolis !important;
+}}
+/*div:not(.ytd-searchbox-spt):not(.ytp-gradient-bottom):not(.ytp-chrome-bottom):not(.ytp-chrome-controls):not(.ytp-progress-bar-padding):not(.ytp-left-controls):not(.ytp-right-controls):not(.ytp-progress-bar):not(.ytp-chapter-hover-container):not(.ytp-autonav-toggle-button-container):not(.ytp-chapter-container):not(.ytp-time-display):not(.html5-video-player):not(.ytp-gradient-top):not(.ytp-hover-progress):not(.ytp-hover-progress-light):not(.ytp-progress-linear-live-buffer):not(.ytp-load-progress):not(.ytp-fullerscreen-edu-chevron):not(.shorts-player):not(.overlay):not(.ytp-spinner):not(.ytp-doubletap-ui-legacy):not(.ytp-doubletap-static-circle):not(.ytp-doubletap-ripple):not(.ytp-spinner-right):not(.ytp-spinner-left):not(.ytp-spinner-rotator):not(.ytp-spinner-container):not(.ytp-spinner-circle):not(.ytp-doubletap-seek-info-container):not(.ytp-doubletap-arrows-container):not(.ytp-doubletap-tooltip):not(.ytp-doubletap-overlay-a11y):not(.ytp-doubletap-seek-info-container):not(.ytp-doubletap-rewind-ve):not(.ytp-doubletap-tooltip-label):not(.ytp-doubletap-arrows-container):not(.ytp-chapter-title-content):not(.ytp-chapter-title-chevron):not(.ytp-caption-window-container):not(.ytp-chrome-top):not(.ytp-title):not(.ytp-chrome-top-buttons):not(.ytp-title-text):not(.ytp-watch-later-icon):not(.ytp-share-icon):not(.ytp-cards-button-icon):not(.ytp-chapter-hover-container):not(.ytp-exp-chapter-hover-container):not(.ytp-exp-chapter-hover-effect):not(.ytp-heat-map-container):not(.ytp-heat-map-chapter):not(.ytp-tooltip):not(.ytp-bottom):not(.ytp-tooltip-text-wrapper):not(.ytp-tooltip-title) {{
+        background-color: var(--color0) !important;
+}}*/
+li {{
+	color: var(--color15) !important;
+}}
+
+.ytd-rich-grid-media[mini-mode]{{
+	color: var(--color15) !important;
+}}
+
+.sbsb_d {{
+	background-color: var(--color0) !important;
+}}
+div:not(.ytd-searchbox-spt):not(.ytp-gradient-bottom):not(.ytp-chrome-bottom):not(.ytp-chrome-controls):not(.ytp-progress-bar-padding):not(.ytp-left-controls):not(.ytp-right-controls):not(.ytp-progress-bar):not(.ytp-chapter-hover-container):not(.ytp-autonav-toggle-button-container):not(.ytp-chapter-container):not(.ytp-time-display):not(.html5-video-player):not(.ytp-gradient-top):not(.ytp-hover-progress):not(.ytp-hover-progress-light):not(.ytp-progress-linear-live-buffer):not(.ytp-load-progress):not(.ytp-fullerscreen-edu-chevron):not(.shorts-player):not(.overlay):not(.ytp-spinner):not(.ytp-doubletap-ui-legacy):not(.ytp-doubletap-static-circle):not(.ytp-doubletap-ripple):not(.ytp-spinner-right):not(.ytp-spinner-left):not(.ytp-spinner-rotator):not(.ytp-spinner-container):not(.ytp-spinner-circle):not(.ytp-doubletap-seek-info-container):not(.ytp-doubletap-arrows-container):not(.ytp-doubletap-tooltip):not(.ytp-doubletap-overlay-a11y):not(.ytp-doubletap-seek-info-container):not(.ytp-doubletap-rewind-ve):not(.ytp-doubletap-tooltip-label):not(.ytp-doubletap-arrows-container):not(.ytp-chapter-title-content):not(.ytp-chapter-title-chevron):not(.ytp-caption-window-container):not(.ytp-chrome-top):not(.ytp-title):not(.ytp-chrome-top-buttons):not(.ytp-title-text):not(.ytp-watch-later-icon):not(.ytp-share-icon):not(.ytp-cards-button-icon):not(.ytp-chapter-hover-container):not(.ytp-exp-chapter-hover-container):not(.ytp-exp-chapter-hover-effect):not(.ytp-heat-map-container):not(.ytp-heat-map-chapter):not(.ytp-tooltip):not(.ytp-bottom):not(.ytp-tooltip-text-wrapper):not(.ytp-tooltip-title):not(.ytd-thumbnail-overlay-toggle-button-renderer):not(.ytp-volume-slider):not(.ytp-volume-panel):not(.ytp-volume-slider-handle):not(.ytp-overflow-icon):not(.ytp-autonav-toggle-button):not(.ytp-load-progress):not(.ytp-progress-list):not(.ytp-play-progress):not(.ytp-swatch-background-color):not(.ytp-progress-linear-live-buffer):not(.ytp-progress-bar):not(.yt-spec-touch-feedback-shape):not(.yt-spec-button-shape-next--button-text-content):not(.ytp-timed-markers-container):not(#scrim):not(.ytd-reel-player-header-renderer):not(.player-controls):not(.ytd-reel-player-overlay-renderer):not(.ytd-channel-name):not(.ytp-inline-preview-scrim):not(#inline-preview-player):not(.html5-video-container):not(.ytd-player div):not(.banner-visible-area):not(.banner-editor):not(.tp-yt-app-header) {{
+	background-color: var(--color0) !important;
+}}
+#button {{
+	color: var(--color1) !important;
+}}
+
+.ytp-load-progress {{
+	background: var(--color8) !important;
+}}
+.ytp-swatch-background-color, .yt-spec-button-shape-next, ytd-tvfilm-offer-module-renderer, .ytd-tvfilm-offer-module-renderer {{
+	background-color: var(--color0) !important;
+}}
+#subscribe-button {{
+	opacity:0;
+}}
+
+ytd-topbar-logo-renderer.style-scope:nth-child(4) > a:nth-child(1) > div:nth-child(1) > ytd-logo:nth-child(1) > yt-icon:nth-child(1) > svg:nth-child(1) > g:nth-child(1) > g:nth-child(1) > path:nth-child(1) {{
+	fill: var(--color13) !important;
+}}
+
+/*.ytp-doubletap-ui-legacy{{
+	opacity: 0;
+}}*/
