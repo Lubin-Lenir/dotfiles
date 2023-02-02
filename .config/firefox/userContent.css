@@ -1,0 +1,62 @@
+/* 
+┌─┐┬┌┬┐┌─┐┬  ┌─┐
+└─┐││││├─┘│  ├┤ 
+└─┘┴┴ ┴┴  ┴─┘└─┘
+┌─┐┌─┐─┐ ┬      
+├┤ │ │┌┴┬┘      
+└  └─┘┴ └─
+by Miguel Avilargb(31, 31, 31)
+*/
+
+
+:root {
+    --wallpaper: url("/home/magnocerebri/Downloads/image.png");
+
+    /* Special */
+    --background: #0c0c0a;
+    --foreground: #cbcccd;
+    --cursor: #cbcccd;
+
+    /* Colors */
+    --color0: #0c0c0a;
+    --color1: #5D8179;
+    --color2: #63857C;
+    --color3: #B0937B;
+    --color4: #7B7F81;
+    --color5: #6E9187;
+    --color6: #B59981;
+    --color7: #cbcccd;
+    --color8: #8e8e8f;
+    --color9: #5D8179;
+    --color10: #63857C;
+    --color11: #B0937B;
+    --color12: #7B7F81;
+    --color13: #6E9187;
+    --color14: #B59981;
+    --color15: #cbcccd;
+}
+
+:root {
+	scrollbar-width: 25px !important;
+	scrollbar-color: rgb(82, 82, 82) transparent;
+	scrollbar:hover {
+		width:0px !important;
+	}
+    ::-webkit-scrollbar:hover{
+	    transition: all 200ms !important;
+	    width:30px !important;
+    }
+}
+body {
+	margin: 0;
+}
+
+
+@-moz-document url(about:privatebrowsing) {
+  :root {
+	scrollbar-width: thin;
+	scrollbar-color: rgb(82, 82, 82) transparent;
+  }
+}
+
+*::selection {background-color:var(--color15) !important; color:var(--color0)}
